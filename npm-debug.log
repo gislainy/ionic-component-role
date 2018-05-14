@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/gislainy/.nvm/versions/node/v6.14.1/bin/node',
+1 verbose cli   '/home/gislainy/.nvm/versions/node/v6.14.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'publishPackage' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.1
+4 verbose run-script [ 'prepublishPackage', 'publishPackage', 'postpublishPackage' ]
+5 info lifecycle ionic-component-role@0.0.2~prepublishPackage: ionic-component-role@0.0.2
+6 silly lifecycle ionic-component-role@0.0.2~prepublishPackage: no script for prepublishPackage, continuing
+7 info lifecycle ionic-component-role@0.0.2~publishPackage: ionic-component-role@0.0.2
+8 verbose lifecycle ionic-component-role@0.0.2~publishPackage: unsafe-perm in lifecycle true
+9 verbose lifecycle ionic-component-role@0.0.2~publishPackage: PATH: /home/gislainy/.nvm/versions/node/v6.14.1/lib/node_modules/npm/bin/node-gyp-bin:/home/gislainy/work/ionic-component-pode/node_modules/.bin:/home/gislainy/.nvm/versions/node/v6.14.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+10 verbose lifecycle ionic-component-role@0.0.2~publishPackage: CWD: /home/gislainy/work/ionic-component-pode
+11 silly lifecycle ionic-component-role@0.0.2~publishPackage: Args: [ '-c', 'npm run build && npm publish' ]
+12 silly lifecycle ionic-component-role@0.0.2~publishPackage: Returned: code: 1  signal: null
+13 info lifecycle ionic-component-role@0.0.2~publishPackage: Failed to exec publishPackage script
+14 verbose stack Error: ionic-component-role@0.0.2 publishPackage: `npm run build && npm publish`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/home/gislainy/.nvm/versions/node/v6.14.1/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/home/gislainy/.nvm/versions/node/v6.14.1/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+15 verbose pkgid ionic-component-role@0.0.2
+16 verbose cwd /home/gislainy/work/ionic-component-pode
+17 error Linux 4.9.0-deepin9-amd64
+18 error argv "/home/gislainy/.nvm/versions/node/v6.14.1/bin/node" "/home/gislainy/.nvm/versions/node/v6.14.1/bin/npm" "run" "publishPackage"
+19 error node v6.14.1
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error ionic-component-role@0.0.2 publishPackage: `npm run build && npm publish`
+22 error Exit status 1
+23 error Failed at the ionic-component-role@0.0.2 publishPackage script 'npm run build && npm publish'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the ionic-component-role package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     npm run build && npm publish
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs ionic-component-role
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls ionic-component-role
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

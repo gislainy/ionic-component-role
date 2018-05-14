@@ -1,9 +1,11 @@
 {
   "name": "ionic-component-role",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "ngc": "ngc",
     "build": "rm -rf dist && npm run ngc",
